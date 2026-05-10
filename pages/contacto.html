@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Vibra Alto · Velas Artesanales</title>
+
+  </head>
+
+  <body>
+ <header>
+  <nav class="nav">
+    <a href="../index.html" class="nav__logo">Vibra Alto</a>
+    <ul class="nav__links">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="./contacto.html" aria-current="page">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+    <main>
+      <section class="contacto">
+        <h2>✦ Escribinos ✦</h2>
+        <form class="contacto__form" action="https://formspree.io/f/meeneqnl" method="POST" >
+        <label for="nombre">Tu nombre: </label>
+        <input id="nombre" type="text" name="name" placeholder="¿Cómo te llamás?" required>         
+        <label for="email"> Tu email: </label>
+        <input id="email" type="email" name="email" placeholder="tu@email.com" required>
+        <label for="message"> Tu mensaje </label>
+        <textarea id="message" name="message" placeholder="Dejanos tu consulta..." required></textarea>
+  <!-- your other form fields go here -->
+        <button class="btn btn--primary btn--full" type="submit">Enviar mensaje ✦</button>
+        </form>
+      </section>
+    </main>
+    
+    
+    <footer>
+      <p class="footer__tagline">Cada vela, un momento de luz.</p>
+      <nav>
+        <ul class="footer__list">
+          <li><img src="../img/whatsapp.png" alt="logo de whatsapp" /></li>
+          <li><img src="../img/instagram.png" alt="logo de instagram" /></li>
+        </ul>
+      </nav>
+
+    </footer>
+  </body>
+
+
+
+</html>

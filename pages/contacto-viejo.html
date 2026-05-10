@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vibra Alto · Contacto</title>
+  <link rel="stylesheet" href="../css/style-viejo.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <a href="index.html" class="nav__logo">Vibra Alto</a>
+    <ul class="nav__links">
+      <li><a href="../index.html" aria-current="page">Inicio</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+  <section class="contacto" id="contacto">
+    <div class="contacto__inner">
+
+      <!-- Columna izquierda -->
+      <address class="contacto__info">
+        <span class="section__tag">Escribinos</span>
+        <h2 class="section__title">¿Hablamos?</h2>
+        <p>
+          Tenés una consulta, querés hacer un pedido personalizado o simplemente
+          querés saber más sobre nuestras velas. Estamos acá.
+        </p>
+
+        <nav class="contacto__details" aria-label="Información de contacto">
+          <p><span aria-hidden="true">📍</span> Buenos Aires, Argentina</p>
+          <p><span aria-hidden="true">📱</span> +54 11 1234-5678</p>
+          <p><span aria-hidden="true">✉️</span> hola@vibraalto.com.ar</p>
+        </nav>
+
+      </address>
+
+      <!-- Columna derecha -->
+      <form class="contacto__form" action="#" method="post" novalidate>
+
+        <label for="nombre">Tu nombre</label>
+        <input
+          id="nombre" name="nombre" type="text"
+          placeholder="¿Cómo te llamás?"
+          autocomplete="given-name"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          id="email" name="email" type="email"
+          placeholder="tu@email.com"
+          autocomplete="email"
+          required
+        />
+
+        <label for="motivo">¿En qué te ayudamos?</label>
+        <select id="motivo" name="motivo" required>
+          <option value="">Seleccioná una opción</option>
+          <option value="productos">Consulta sobre productos</option>
+          <option value="pedido">Pedido personalizado</option>
+          <option value="envios">Envíos y precios</option>
+          <option value="otro">Otro</option>
+        </select>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea
+          id="mensaje" name="mensaje"
+          placeholder="Contanos qué necesitás..."
+          rows="4"
+          required
+        ></textarea>
+
+        <button type="submit" class="btn btn--primary btn--full">
+          Enviar mensaje ✦
+        </button>
+
+      </form>
+
+    </div>
+  </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="footer__tagline">Cada vela, un momento de luz.</p>
+
+    <nav>
+        <ul class="footer__list">
+          <li><img src="../img/whatsapp.png" alt="logo de whatsapp" /></li>
+          <li><img src="../img/instagram.png" alt="logo de instagram" /></li>
+        </ul>
+    </nav>
+
+  </footer>
+
+</body>
+</html>
