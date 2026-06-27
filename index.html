@@ -15,7 +15,8 @@
     <a href="index.html" class="nav__logo">Vibra Alto</a>
     <ul class="nav__links">
       <li><a href="index.html" aria-current="page">Inicio</a></li>
-      <li><a href="pages/contacto.html">Contacto</a></li>
+      <li><a href="./pages/contacto.html">Contacto</a></li>
+      <li><a href="./pages/carrito.html" class="carrito-icon">🛒<span id="contador-carrito">0</span></a></li>
     </ul>
   </nav>
 </header>
@@ -26,8 +27,8 @@
       <section class="hero__tienda">
         <h2>✦ Nuestros productos ✦</h2>
 
-        <div class="contenedor-tarjetas">
-
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+<!--
           <article class="card">
             <img src="./img/products/1_velas.jpg" alt="Vela blanca en vaso">
             <h3>Vela blanca</h3>
@@ -60,7 +61,7 @@
             <button class="btn btn--primary">Agregar al carrito</button>
           </article>
 
-
+        -->
 
         </div>
       </section>
@@ -76,7 +77,9 @@
         </ul>
       </nav>
 
-    </footer>
+    </footer> 
+    <script type="module" src="./js/index.js"></script>
+
   </body>
 
 
