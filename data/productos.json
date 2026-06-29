@@ -1,33 +1,37 @@
 [
-    {
-        "id": "1",
-        "nombre": "Vela blanca",
-        "precio": 1200,
-        "img": "img/products/1_velas.jpg"
-    },
-     {
-        "id": "2",
-        "nombre": "Velas blancas",
-        "precio": 1900,
-        "img": "img/products/2_velas.jpg"
-    },
-    {
-        "id": "3",
-        "nombre": "Vela blanca",
-        "precio": 1400,
-        "img": "img/products/3_velas.jpg"
-    },
-    {
-        "id": "4",
-        "nombre": "Velas blancas",
-        "precio": 2200,
-        "img": "img/products/4_velas.jpg"
-    },
-    {
-        "id": "5",
-        "nombre": "Set de Velas",
-        "precio": 3200,
-        "img": "img/products/5_velas.jpg"
-    }
-
+  {
+    "id": "1",
+    "nombre": "Vela Blanca",
+    "precio": 1200,
+    "img": "img/products/1_velas.jpg",
+    "descripcion": "Vela blanca en vaso"
+  },
+  {
+    "id": "2",
+    "nombre": "Velas blancas",
+    "precio": 1900,
+    "img": "img/products/2_velas.jpg",
+    "descripcion": "Velas blanca en vasos"
+  },
+  {
+    "id": "3",
+    "nombre": "Vela blanca",
+    "precio": 1400,
+    "img": "img/products/3_velas.jpg",
+    "descripcion": "Vela blanca con 3 pabilones"
+  },
+  {
+    "id": "4",
+    "nombre": "Velas blancas",
+    "precio": 2200,
+    "img": "img/products/4_velas.jpg",
+    "descripcion": "Cuatro velas blancas en vaso"
+  },
+  {
+    "id": "5",
+    "nombre": "Set de Velas",
+    "precio": 3200,
+    "img": "img/products/5_velas.jpg",
+    "descripcion": "Set de velas blancas"
+  }
 ]
