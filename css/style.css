@@ -396,12 +396,3 @@ footer {
 .card-carrito p {
   text-align: left;
 }
-.btn--carrito {
-  background: linear-gradient(135deg, #c9748a, #b08898);
-  color: #fff;
-  box-shadow: 0 4px 20px rgba(201, 116, 138, 0.3);
-}
-.btn--carrito:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 28px rgba(201, 116, 138, 0.4);
-}

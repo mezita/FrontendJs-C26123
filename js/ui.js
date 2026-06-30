@@ -9,5 +9,11 @@ export const mostrarMensaje = (texto) => {
   //alert(texto);
   Swal.fire({
     text: texto,
+    icon: "success",
+    toast: true,
+    position: "bottom-end",
+    showConfirmButton: false,
+    timer: 2000,
+    timerProgressBar: true,
   });
 };
