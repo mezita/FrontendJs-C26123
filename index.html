@@ -1,34 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Vibra Alto · Velas Artesanales</title>
-
   </head>
 
   <body>
- <header>
-  <nav class="nav">
-    <a href="index.html" class="nav__logo">Vibra Alto</a>
-    <ul class="nav__links">
-      <li><a href="index.html" aria-current="page">Inicio</a></li>
-      <li><a href="./pages/contacto.html">Contacto</a></li>
-      <li><a href="./pages/carrito.html" class="carrito-icon">🛒<span id="contador-carrito">0</span></a></li>
-    </ul>
-  </nav>
-</header>
-
+    <header>
+      <nav class="nav">
+        <a href="index.html" class="nav__logo">Vibra Alto</a>
+        <ul class="nav__links">
+          <li><a href="index.html" aria-current="page">Inicio</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icon"
+              >🛒<span id="contador-carrito">0</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <main>
-
       <section class="hero__tienda">
         <h2>✦ Nuestros productos ✦</h2>
 
         <div id="contenedor-tarjetas" class="contenedor-tarjetas">
-<!--
+          <!--
           <article class="card">
             <img src="./img/products/1_velas.jpg" alt="Vela blanca en vaso">
             <h3>Vela blanca</h3>
@@ -61,13 +65,10 @@
             <button class="btn btn--primary">Agregar al carrito</button>
           </article>
 
-        -->
-
-        </div>
+        --></div>
       </section>
     </main>
-    
-    
+
     <footer>
       <p class="footer__tagline">Cada vela, un momento de luz.</p>
       <nav>
@@ -76,12 +77,10 @@
           <li><img src="./img/instagram.png" alt="logo de instagram" /></li>
         </ul>
       </nav>
-
-    </footer> 
+    </footer>
     <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/sweetAlert.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
-
-
-
 </html>

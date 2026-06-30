@@ -334,6 +334,20 @@ footer {
 }
 
 /* ── CARRITO ────── */
+
+.carrito-layout {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.carrito-productos {
+  flex: 3;
+}
+/*
 #contenedor-carrito {
   display: flex;
   flex-wrap: wrap;
@@ -341,6 +355,7 @@ footer {
   gap: 1.5rem;
   margin: 2rem 0;
 }
+*/
 
 .acciones-carrito {
   display: flex;
@@ -348,11 +363,45 @@ footer {
   margin: 2rem 0;
 }
 #resumen-carrito {
+  flex: 1;
   background: #fff8f5;
   border-radius: 20px;
   padding: 2rem;
   width: 320px;
   margin: 2rem auto;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
   text-align: center;
+  top: 7rem;
+  position: sticky;
+}
+
+.card-carrito {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.card-carrito img {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+}
+.card-carrito h3 {
+  font-size: 2rem;
+}
+
+.card-carrito p {
+  text-align: left;
+}
+.btn--carrito {
+  background: linear-gradient(135deg, #c9748a, #b08898);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(201, 116, 138, 0.3);
+}
+.btn--carrito:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(201, 116, 138, 0.4);
 }

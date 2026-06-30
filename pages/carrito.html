@@ -30,14 +30,17 @@
     <main>
       <section class="hero__tienda">
         <h2>✦ Carrito de compras ✦</h2>
-        <div id="contenedor-carrito" class="contenedor-tarjetas"></div>
-        <!-- Productos del carrito  -->
+        <div class="carrito-layout">
+          <div class="carrito-productos">
+            <div id="contenedor-carrito"></div>
+            <!-- Productos del carrito  -->
 
-        <div id="acciones-carrito" class="acciones-carrito"></div>
-        <!-- Botones de eliminar y finalizar  -->
-
-        <div id="resumen-carrito"></div>
-        <!-- Resumen carrito  -->
+            <div id="acciones-carrito" class="acciones-carrito"></div>
+            <!-- Botones de eliminar y finalizar  -->
+          </div>
+          <div id="resumen-carrito"></div>
+          <!-- Resumen carrito  -->
+        </div>
       </section>
     </main>
 
@@ -51,5 +54,6 @@
       </nav>
     </footer>
     <script type="module" src="../js/carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

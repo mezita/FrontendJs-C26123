@@ -28,7 +28,7 @@ const renderizarCarrito = () => {
 
   carrito.forEach((producto, index) => {
     const tarjeta = document.createElement("article");
-    tarjeta.classList.add("card");
+    tarjeta.classList.add("card-carrito");
 
     const img = document.createElement("img");
     img.src = `../${producto.img}`;

@@ -6,5 +6,8 @@ export const actualizarCarrito = (carrito) => {
 };
 
 export const mostrarMensaje = (texto) => {
-  alert(texto);
+  //alert(texto);
+  Swal.fire({
+    text: texto,
+  });
 };
